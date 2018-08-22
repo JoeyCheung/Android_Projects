@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.brocodingtuts.a8ball.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="24dp"
+        android:text="@string/header"/>
+
+    <ImageView
+        android:id="@+id/magic_ball"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/ball" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="24dp"
+        tools:text="This is placeholder text"/>
+
+</LinearLayout>
